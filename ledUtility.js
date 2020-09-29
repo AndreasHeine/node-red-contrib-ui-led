@@ -139,7 +139,7 @@ module.exports = {
 			}
 
 			const color = msg.color;
-			const glow = msg.glow;
+			const glow = false; //msg.glow;
 
 			$(element).attr('style', ledStyleTemplate(color, glow));
 		}
